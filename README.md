@@ -2,11 +2,12 @@
 ```markdown
 # Selenium Automation Project
 
-This repository contains Selenium-based automation scripts for performing browser tasks on the [Python.org](https://www.python.org/) website, such as search functionalities and download operations.
+This repository contains Selenium-based automation scripts for performing browser tasks <br>
+ on the [Python.org](https://www.python.org/) website, such as search functionalities and download operations.
 
 
 
-## 📁 Folder Structure
+## 📁 **Folder Structure**
 
 
 selenium/
