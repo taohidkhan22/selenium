@@ -14,6 +14,12 @@ driver.get("https://www.facebook.com/signup")
 #     print("The value is:" , option.get_attribute("value"))
 #     option.click()
 
+elem =driver.find_element(By.XPATH, "//select[@id='day']")
+alloption= elem.find_elements(By.TAG_NAME,"option")
+for option in alloption:
+    print("value is: ",option.get_attribute("value"))
+    option.click()
 
+    
 select = Select(driver.find_element(By.NAME, "birthday_month"))
 select.select_by_value("4")
