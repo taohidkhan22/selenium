@@ -8,7 +8,7 @@ This repository contains Selenium-based automation scripts for performing browse
 
 ## 📁 Folder Structure
 
-```plaintext
+``` plaintext
 selenium/
 ├── 📂 tests/                  
 │   ├── test_python_org_search.py   
