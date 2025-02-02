@@ -1,4 +1,4 @@
-Here is a sample `requirements.txt` file based on the tools you're likely using in a Selenium project:
+
 
 ```plaintext
 selenium==4.11.2
@@ -13,4 +13,4 @@ requests==2.31.0
    pip install -r requirements.txt
    ```
 
-If you need additional dependencies or versions tailored to your project, let me know!
+
