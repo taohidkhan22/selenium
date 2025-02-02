@@ -1,6 +1,3 @@
-Here is a clean, professional, and standard version of your `README.md` with a more polished structure and a refined layout:
-
-```markdown
 # Selenium Automation Project
 
 This repository contains Selenium-based automation scripts for browser task automation on [Python.org](https://www.python.org/), such as search functionalities and download operations.
@@ -9,17 +6,15 @@ This repository contains Selenium-based automation scripts for browser task auto
 
 ## 📂 Folder Structure
 
-```
-selenium/
-├── tests/                  
-│   ├── test_python_org_search.py   # Test script for search functionality
-│   └── test_python_org_download.py # Test script for download link validation
-├── scripts/               
-│   ├── Remote_Webdriver.py         # WebDriver setup for local/remote execution
-│   └── python_org_search.py        # Script for search operations
-├── README.md                       # Documentation file
-└── requirements.txt                # Project dependencies
-```
+- **selenium/**
+  - **tests/**
+    - `test_python_org_search.py`: Test script for search functionality
+    - `test_python_org_download.py`: Test script for download link validation
+  - **scripts/**
+    - `Remote_Webdriver.py`: WebDriver setup for local/remote execution
+    - `python_org_search.py`: Script for search operations
+  - `README.md`: Documentation file
+  - `requirements.txt`: Project dependencies
 
 ---
 
@@ -30,6 +25,7 @@ selenium/
 - **README.md**: Documentation for project setup, usage, and contributions.
 
 ---
+
 
 ## 🚀 Prerequisites
 
