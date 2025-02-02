@@ -6,18 +6,6 @@ import time
 from time import sleep
 import unittest
 
-class DragandDrop(unittest.TestCase):
-    def setUp(self):
-        self.driver = webdriver.Firefox()
-    def test_draganddropcheck(self):
-        driver = self.driver
-        driver.get("https://jqueryui.com/droppable/")
-        driver.switch_to.frame(driver.find_element(By.TAG_NAME,"iframe"))
-        source= driver.find_element(By.ID, "draggable")
-        target= driver.find_element(By.ID, "droppable")
-        action_chains = ActionChains(driver)
-        time.sleep(5)
-        action_chains.drag_and_drop(source, target).perform()
 
 
 class moveToRelease(unittest.TestCase):
@@ -32,7 +20,7 @@ class moveToRelease(unittest.TestCase):
         target= driver.find_element(By.ID, "droppable")
         action_chains = ActionChains(driver)
         time.sleep(5)
-        action_chains.click_and_hold(source).move_to_element(target).release().perform()
+        action_chains.click_and_hold(source).move_by_offset(50,60).release().perform()
 
 
 if __name__ == "__main__":
