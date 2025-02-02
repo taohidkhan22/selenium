@@ -22,3 +22,6 @@ DOB= f"{default_day} {default_month} {default_year}"
 print(DOB)
 
 
+all_select = day_select.all_selected_options
+print(all_select[0].text)
+
