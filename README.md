@@ -1,4 +1,3 @@
-Here is your complete, professional, and well-formatted `README.md`:
 
 ```markdown
 # Selenium Automation Project
@@ -11,14 +10,14 @@ This repository contains Selenium-based automation scripts for performing browse
 
 ```plaintext
 selenium/
-├── 📂 tests/                  # Contains test files for automation
-│   ├── test_python_org_search.py   # Test script for search functionality on Python.org
-│   └── test_python_org_download.py # Test script for validating download links on Python.org
-├── 📂 scripts/                # Core automation logic scripts
-│   ├── Remote_Webdriver.py        # WebDriver setup for local/remote execution
-│   └── python_org_search.py       # Script for search operations
-├── README.md                # Documentation file
-└── requirements.txt          # List of required dependencies
+├── 📂 tests/                  
+│   ├── test_python_org_search.py   
+│   └── test_python_org_download.py 
+├── 📂 scripts/               
+│   ├── Remote_Webdriver.py        
+│   └── python_org_search.py       
+├── README.md                
+└── requirements.txt          
 ```
 
 ---
@@ -107,5 +106,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Selenium](https://www.selenium.dev/) for browser automation.
 - [Python.org](https://www.python.org/) for providing a platform to demonstrate these scripts.
 ```
-
-Simply copy this entire content into your `README.md` file, and you're good to go! Let me know if you'd like further tweaks. 😊
