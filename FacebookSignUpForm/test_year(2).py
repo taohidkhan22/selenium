@@ -6,9 +6,9 @@ from selenium.webdriver.support.ui import Select
 driver= webdriver.Firefox()
 driver.get("https://www.facebook.com/signup")
 
-# alloptions= elem.find_elements(By.TAG_NAME,"option")
+alloptions= elem.find_elements(By.TAG_NAME,"option")
 
-# for option in alloptions:
-#     option.click()
+for option in alloptions:
+    option.click()
 
 
