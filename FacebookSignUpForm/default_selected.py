@@ -17,7 +17,7 @@ year_select =Select(driver.find_element(By.NAME, "birthday_year"))
 default_day = day_select.first_selected_option.text
 default_month = month_select.first_selected_option.text
 default_year= year_select.first_selected_option.text
-DOB= f"{default_day} {default_month} {default_year}"
+DOB= f"{default_day}  {default_month} {default_year}"
 
 print(DOB)
 
