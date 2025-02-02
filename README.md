@@ -4,11 +4,11 @@
 
 This repository contains Selenium-based automation scripts for performing browser tasks on the [Python.org](https://www.python.org/) website, such as search functionalities and download operations.
 
----
+
 
 ## 📁 Folder Structure
 
-``` plaintext
+
 selenium/
 ├── 📂 tests/                  
 │   ├── test_python_org_search.py   
@@ -18,9 +18,9 @@ selenium/
 │   └── python_org_search.py       
 ├── README.md                
 └── requirements.txt          
-```
 
----
+
+
 
 ## 📝 File Types and Descriptions
 
@@ -28,7 +28,6 @@ selenium/
 - **requirements.txt**: File specifying the project dependencies.
 - **README.md**: Documentation about the project setup and usage.
 
----
 
 ## 🚀 Prerequisites
 
@@ -39,7 +38,6 @@ selenium/
   ```
 - **WebDriver**: Download the appropriate WebDriver for your browser (e.g., ChromeDriver for Chrome) and ensure it's in your system's PATH.
 
----
 
 ## ⚙️ Setup Instructions
 
@@ -58,7 +56,7 @@ selenium/
    - For **remote execution**, update `Remote_Webdriver.py` with your remote WebDriver server configuration.
    - For **local execution**, ensure the WebDriver executable is accessible in your system's PATH.
 
----
+
 
 ## 🧪 Running Tests
 
@@ -72,7 +70,7 @@ selenium/
   python tests/test_python_org_download.py
   ```
 
----
+
 
 ## 🤝 Contribution Guidelines
 
@@ -93,7 +91,6 @@ Contributions are welcome! Please follow these steps:
    ```
 5. **Submit a Pull Request**: From your branch to the main repository.
 
----
 
 
 
@@ -101,4 +98,4 @@ Contributions are welcome! Please follow these steps:
 
 - [Selenium](https://www.selenium.dev/) for browser automation.
 - [Python.org](https://www.python.org/) for providing a platform to demonstrate these scripts.
-```
+
