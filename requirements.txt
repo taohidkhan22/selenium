@@ -1,0 +1,16 @@
+Here is a sample `requirements.txt` file based on the tools you're likely using in a Selenium project:
+
+```plaintext
+selenium==4.11.2
+pytest==7.4.0
+requests==2.31.0
+```
+
+### Instructions:
+1. Copy this content into a file named `requirements.txt` in your project directory.
+2. Install the dependencies by running:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+If you need additional dependencies or versions tailored to your project, let me know!
