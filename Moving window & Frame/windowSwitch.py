@@ -16,11 +16,13 @@ driver.execute_script("window.open('https://www.bing.com','_blank');")
 windows= driver.window_handles
 time.sleep(5)
 
-# for window in windows:
-#     if window!=main_window:
-#         driver.switch_to.window(window)
-#         break
+
 # print("Switched to Bing: ", driver.title)
 # time.sleep(5)
 driver.switch_to.window(main_window)
 print("Switched to goggle : ",driver.title)
+
+for window in windows:
+        time.sleep(5)
+        driver.switch_to.window(window)
+        

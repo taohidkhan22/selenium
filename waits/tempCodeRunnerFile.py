@@ -1,1 +1,0 @@
-driver.find_element(By.XPATH,'//button[text()="Start"]').click()
